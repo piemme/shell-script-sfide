@@ -1,0 +1,12 @@
+SFIDA N. 1
+
+Usa i cicli per visualizzare i numeri naturali da 1 a 50.
+Si aspetta un output del tipo:
+
+1
+2
+3
+4
+5
+.
+.

@@ -1,0 +1,7 @@
+SFIDA N. 5
+
+Lo script shell dovrà archiviare come "tarball" (*.tar.gz file) tutti i file della home directory che sono stati modificati nelle ultime 48 ore.
+(Usa il comando find).
+Il nome del tarball deve conservare la data in cui è stato eseguito.
+
+

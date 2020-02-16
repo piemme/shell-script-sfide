@@ -1,0 +1,14 @@
+#!/bin/bash
+#esercizio che accetta y Y n N senno da errore 
+echo "Ciao! Inserisci y, Y, n o N"
+read -r risp
+if [ \( "$risp" = "y" \) ] || [ \( "$risp" = "Y" \) ]; then
+echo "Yup"
+else
+if [ \( "$risp" = "n" \) ] || [ \( "$risp" = "N" \) ]; then
+echo "Nope"
+else
+echo "puoi inserire y, Y, n o N"
+exit 1
+fi
+fi
