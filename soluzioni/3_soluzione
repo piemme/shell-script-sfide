@@ -1,18 +1,19 @@
-#!/bin/bash
-#esercizio confronto due numeri 
+#!/usr/bin/env bash
+# esercizio confronto due numeri
+
 echo "inserisci due numeri"
-read -r x y
-if [ "$x" \> "$y" ]; then
-echo "$x è maggiore di $y"
+read -pr "inserire il primo numero (x): " x
+read -pr "inserire il secondo numero (y): " y
+
+# da verificare se input è valorizzato
+
+if [ "$x" -gt "$y" ]; then
+  echo "\$x è maggiore di \$y"
+elif [ "$x" -lt "$y" ]; then
+  echo "\$x è minore di \$y"
+elif [ "$x" = "$y" ]; then
+  echo "\$x è uguale a \$y"
 else
-if [ "$x" \< "&y" ]; then
-echo "$y è maggiore di $x"
-else
-if [ "$x" = "&y" ]; then
-echo "$x è uguale di $y"
-else
-echo "inserire due numeri"
-exit 1
-fi
-fi
+  echo "inserire due numeri"
+  exit 1
 fi
