@@ -3,6 +3,7 @@
 Si fa riferimento alla issue <https://git.eurixgroup.com/learning-training/stairway-frontend/issues/9>
 
 Per facilitare la verifica degli script tramite il confronto tra la versione proposta e la versione corretta, stabiliamo la convenzione per cui:
+
 * il branch master contiene la versione corretta
 * il tag a.b.c (es. 1.0.0) contiene la versione proposta
 
@@ -109,4 +110,10 @@ Nell'esercizio si chiedeva di mostrare anche X minore Y.
 
 Nell'output deve essere chiaro di quale variabile si tratta (x o y) e non del numero, altrimenti non è chiaro a quale dei due numeri ci si riferisce.
 
-TO BE CONTINUED...
+### Script: 4_soluzione
+
+Da completare.
+
+### Script: 5_soluzione
+
+Da completare.
