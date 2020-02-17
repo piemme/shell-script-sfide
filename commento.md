@@ -2,6 +2,12 @@
 
 Si fa riferimento alla issue <https://git.eurixgroup.com/learning-training/stairway-frontend/issues/9>
 
+Per facilitare la verifica degli script tramite il confronto tra la versione proposta e la versione corretta, stabiliamo la convenzione per cui:
+* il branch master contiene la versione corretta
+* il tag a.b.c (es. 1.0.0) contiene la versione proposta
+
+Per cui la comparazione sarà: https://git.eurixgroup.com/learning-training/esercizi-di-programmazione/shell-script-sfide/compare/v1.0.0...master
+
 ## Linux: creazione utente
 
 Utente ```respondeo``` creato senza la bash: in ```/etc/passwd``` la shell assegnata all'utente era ```/bin/sh``` invece doveva essere ```/bin/bash```.
