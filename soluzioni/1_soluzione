@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-# esercizio che da in output i numeri naturali da 1 a 50
-var=1
-while [ "$var" -lt 51 ]; do
-  echo "$var"
-  var=$((var+1))
-done

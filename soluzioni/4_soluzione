@@ -1,6 +1,0 @@
-#!/bin/bash
-# stampo in modo ricorsivo
-echo "Sto creando un file nella directory principale"
-tmp=/stampo.txt
-cd /home
-ls -R > tmp | gzip tmp
