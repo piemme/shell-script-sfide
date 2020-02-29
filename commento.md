@@ -2,16 +2,16 @@
 
 ## Commenti alla versione 1.1.0 del 29/02/2020
 
-Ottimo. Hai rifatto gli esercizi seguendo le indicazioni.
-Molto bene.
-Ora andiamo avanti: combiniamo gli esercizi con git.
 Sul repository troverai:
-la TUA ultima versione sul tag "1.1.0", che equivale al branch master.
-le MIE correzioni/suggerimenti sul branch "correzioni-1.0.0".
+
+* la TUA ultima versione sul tag "1.1.0", che equivale al branch master
+* le MIE correzioni/suggerimenti sul branch "correzioni-1.0.0".
+
 Fai una diff tra i due branch (prima a linea di comando e poi su gitlab).
+
 Fai un branch locale a partire dal master, implementa le tue correzioni e poi fai il merge sul master.
+
 Poi fai la push, mi avvisi e io controllo.
-Tutto bene, cmq!
 
 ## Intro
 
