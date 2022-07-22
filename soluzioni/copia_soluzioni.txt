@@ -1,0 +1,6 @@
+1.1.0_1_loop_numeri_naturali.sh
+1.1.0_2_yes_or_no.sh
+1.1.0_3_comparazione_numeri.sh
+1.1.0_4_conserva_la_home.sh
+1.1.0_5_backup_buckup.sh
+copia_soluzioni.txt
