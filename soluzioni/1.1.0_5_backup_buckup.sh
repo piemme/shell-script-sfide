@@ -5,7 +5,5 @@
 #(Usa il comando find).
 #Il nome del tarball deve conservare la data in cui è stato eseguito.
 
-#!/bin/bash
-
-
-
+#!/bin/bash -x
+find /home/gerson -mtime -2 -exec tar -cvzaf 25.07.2022.tar.gz {} \;

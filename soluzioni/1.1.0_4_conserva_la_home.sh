@@ -7,18 +7,12 @@
 
 #!/bin/bash 
 
-copia_dir = /copia_dir.txt
-
-if ()
-then
-    ls /soluzioni > copia_dir
-fi
- echo "Ecco il contenuto di 'copia_dir"
- cat $copia_dir
-done 
-
-
-
+ls $HOME/* > 'copia_home.txt'
+echo "comprimo il file" 
+[ -f copia_home.txt.gz ] && rm copia_home.txt.gz
+gzip -k copia_home.txt
+echo "view del file"
+cat copia_home.txt
 
 
 

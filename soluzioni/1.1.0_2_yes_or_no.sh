@@ -8,7 +8,7 @@
 echo "Inizializzare l'esercizio?..inserisci [y] per consesntire o [N] per negare:"
 while :
 do
-    read -p 'comando ' risposta
+    read risposta
     if [[ $risposta == "y" || $risposta == "Y" ]]
     then
         echo "Hai risposto Yup"
@@ -18,7 +18,7 @@ do
         echo "Hai risposto NOPE"
     break
     else
-        echo "coglione riprova!"
+        echo "riprova!"
     fi
 done
 
