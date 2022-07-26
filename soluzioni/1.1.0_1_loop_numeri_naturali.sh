@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# see https://en.wikipedia.org/w/index.php?title=Shebang_(Unix)&oldid=878552871#Portability
 
 #SFIDA N. 1
 
