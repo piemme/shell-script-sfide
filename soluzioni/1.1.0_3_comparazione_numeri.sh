@@ -20,3 +20,5 @@ elif [[ $X == $Y ]]
 then
     echo "$X è uguale a $Y"
 fi
+#prendendo d'esempio l'esercizio 2 , questo esercizio richiedeva le stesse conoscenze.
+#utilizzo del comando 'echo', 'read', creazioni di variabili e del ciclo 'if'
