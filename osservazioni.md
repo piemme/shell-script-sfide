@@ -2,6 +2,7 @@
 
 ## Esercizi versione 1.0.0
 
+Come mai i file si chiamano "1.1.0_" quando la versione è 1.0.0?
 
 ### 1.1.0_1_loop_numeri_naturali.sh
 
@@ -21,6 +22,36 @@ done
 ```
 
 ### 1.1.0_2_yes_or_no.sh
+
+Eseguendo lo script ottengo:
+```
+./1.1.0_2_yes_or_no.sh           
+Inizializzare l'esercizio?..inserisci [y] per consesntire o [N] per negare:
+y
+./1.1.0_2_yes_or_no.sh: 16: [[: not found
+./1.1.0_2_yes_or_no.sh: 16: y: not found
+./1.1.0_2_yes_or_no.sh: 22: [[: not found
+./1.1.0_2_yes_or_no.sh: 22: y: not found
+riprova!
+
+```
+
+Mettendo la shebang nella riga n. 1 tutto funziona correttamente:
+
+```
+./1.1.0_2_yes_or_no.sh
+Inizializzare l'esercizio?..inserisci [y] per consesntire o [N] per negare:
+y
+Hai risposto Yup
+```
+
+```
+./1.1.0_2_yes_or_no.sh
+Inizializzare l'esercizio?..inserisci [y] per consesntire o [N] per negare:
+N
+Hai risposto NOPE
+```
+
 
 ### 1.1.0_3_comparazione_numeri.sh
 
