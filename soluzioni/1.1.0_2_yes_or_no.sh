@@ -5,32 +5,36 @@
 #Se l'utente ha inserito Y' or 'y' visualizzare "YUP".
 #Se ha inserito 'N' or 'n' visualizzare "NOPE".
 #Se l'utente ha inserito un altro carattere, visualizzare un messaggio di errore.
-
+# --------------------------------------------------------------------------------
 #chiedere un input al users
-echo "Inizializzare l'esercizio?[y/n]"
-#iniziare un ciclo che elabori la risposta
+echo "Inizializzare l'esercizio? [y,n]"
+#iniziare un ciclo 'while' che elabori la risposta
 while :
 do
-    #questo comando permette la cattura della risposta dal terminale, quindi creare una variabile con valore, la risposta del users
+    # il 'READ' effetua la lettura della 'risposta' inserita nel terminale
     read risposta
-    #questo ciclo elabora la risposta positiva, la condizione prevede che la risposta sia uguale alle lette 'y,Y'
+    # il ciclo 'if' elabora la risposta solo se uguale a 'y' o 'Y'.
     if [[ $risposta == "y" || $risposta == "Y" ]]
     then
-        #se la condizione viene rispettata allora mi manda sul terminale la stringa dopo il comando 'echo'
-        echo "Hai risposto Yup"
+        # 'echo' stampa su terminale 'YUP'
+        echo "YUP"
+        # 'break' rompe il ciclo.
     break
-    #se la condizione del primo ciclo non è rispettata parte il secondo ciclo che pretende la risposta uguale a 'n,N'
+    # 'elif' elabora la risposta se uguale a 'n' o 'N'.
     elif [[ $risposta == "n" || $risposta == "N" ]]
     then
-        #manda in stampa la stringa
-        echo "Hai risposto NOPE"
+        # stampa 'NOPE'
+        echo "NOPE"
     break
-    #se la risposta non rispetta nessuna delle condizioni precedenti ti incita a riprovare.
+    # 'else' ove la risposta non è come le precetendi condizioni
     else
-        echo "riprova!"
+        # stampa 'not found'
+        echo "not found"
     fi
 done
 
+#---------------------------------------------------------------------------
+
 #tali scelte sono state prese alla base di esercizi molto simili svolti nel corso di java.
-#ho ricontrollato la sintassi che prevedeva qualche modifica rispetto al altro linguaggio.
-#i link forniti mi sono stati d'aiuto [link1]('https://linuxconfig.org/bash-scripting-tutorial-for-beginners').ù
+#ho ricontrollato la sintass  i che prevedeva qualche modifica rispetto al altro linguaggio.
+#i link forniti mi sono stati d'aiuto 'https://linuxconfig.org/bash-scripting-tutorial-for-beginners'.
