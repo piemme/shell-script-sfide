@@ -1,12 +1,13 @@
+#!/bin/bash
 #SFIDA N. 2
 
 #Leggere l'input utente (ammessi i caratteri 'Y', 'y', 'N', 'n').
 #Se l'utente ha inserito Y' or 'y' visualizzare "YUP".
 #Se ha inserito 'N' or 'n' visualizzare "NOPE".
 #Se l'utente ha inserito un altro carattere, visualizzare un messaggio di errore.
-#!/bin/bash
+
 #chiedere un input al users
-echo "Inizializzare l'esercizio?..inserisci [y] per consesntire o [N] per negare:"
+echo "Inizializzare l'esercizio?[y/n]"
 #iniziare un ciclo che elabori la risposta
 while :
 do
