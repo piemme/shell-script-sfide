@@ -1,10 +1,11 @@
+#!/usr/bin/env bash
 #SFIDA N. 3
 
 #Dati due numeri interi (X e Y), inseriti dall'utente come input, visualizzare uno dei seguenti casi:
 #- X minore Y
 #- X maggiore Y
 #- X uguale Y
-#!/bin/bash
+
 
 echo "Inserisci il primo numero: .."
 read X

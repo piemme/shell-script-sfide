@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #SFIDA N. 4
 
 #Lo script shell dovrà:
@@ -5,7 +6,7 @@
 # - salvare le informazioni su un file
 # - comprimere il file
 
-#!/bin/bash 
+
 
 ls $HOME/* > 'copia_home.txt'
 echo "comprimo il file" 

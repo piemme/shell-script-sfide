@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #SFIDA N. 2
 
 #Leggere l'input utente (ammessi i caratteri 'Y', 'y', 'N', 'n').
