@@ -6,6 +6,7 @@
 # - salvare le informazioni su un file
 # - comprimere il file
 
+#------------------------------------------------------------------------------------------------------
 
 
 ls $HOME/* > 'copia_home.txt'
@@ -15,6 +16,8 @@ echo "comprimo il file"
 gzip -k copia_home.txt
 echo "view del file"
 cat copia_home.txt
+
+#-------------------------------------------------------------------------------------------------------
 
 #questo esercizio prevede la conoscenza del comando 'ls'(stampa il contenuto dela cartella selezionata)
 # e saper decidere l'uscita del suo output, 
