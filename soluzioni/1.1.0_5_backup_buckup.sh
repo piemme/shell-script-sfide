@@ -6,9 +6,12 @@
 #(Usa il comando find).
 #Il nome del tarball deve conservare la data in cui è stato eseguito.
 
+------------------------------------------------------------------------
 
 find /home/gerson -mtime -2 -exec tar -cvzaf 25.07.2022.tar.gz {} \;
-#conoscenze richieste: 
+
+------------------------------------------------------------------------
+# conoscenze richieste: 
 # 'find'(trova ogni dato riguardante la directory, come il '-mtime' che trova i dati riguadanti i file modificati);
 # 'exec'(permette l'iserimento di un altro comando che va a modificare l'output di find);
 # 'tar'(creazione archivio);
