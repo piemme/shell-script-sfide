@@ -19,7 +19,7 @@ cat copia_home.txt
 
 #-------------------------------------------------------------------------------------------------------
 
-#questo esercizio prevede la conoscenza del comando 'ls'(stampa il contenuto dela cartella selezionata)
+# questo esercizio prevede la conoscenza del comando 'ls'(stampa il contenuto dela cartella selezionata)
 # e saper decidere l'uscita del suo output, 
 # 'gzip' (comprimi), 'cat' (stampa il contenuto del file selezionato).
 

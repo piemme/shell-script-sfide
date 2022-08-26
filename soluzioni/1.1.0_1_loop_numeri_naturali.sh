@@ -10,5 +10,5 @@ do
 # il comando 'echo' stampa nel terminale il contenuto tra i doppi apici.
     echo "$i"
 done
-# eseguendo il codice otterrai la lista di numeri da 1 a 50.
+# eseguendo il codice ottieni la lista di numeri da 1 a 50.
 
