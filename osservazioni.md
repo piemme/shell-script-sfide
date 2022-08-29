@@ -52,19 +52,16 @@ N
 Hai risposto NOPE
 ```
 
+## Esercizi versione 1.1.0
 
-### 1.1.0_3_comparazione_numeri.sh
 
 ### 1.1.0_4_conserva_la_home.sh
 
+Attenzione! Il listing delle directory deve essere *ricorsivo*.
+
+
+
 ### 1.1.0_5_backup_buckup.sh
 
-
-
-
-
-
-
-
-
+Il comando: ```find /home/gerson``` non è portabile. Deve essere possibile eseguirlo sulla home directory di chiunque esegua il comamdo.
 
