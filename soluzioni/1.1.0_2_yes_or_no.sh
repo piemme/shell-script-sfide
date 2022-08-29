@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 #SFIDA N. 2
 
