@@ -9,18 +9,7 @@
 #------------------------------------------------------------------------------------------------------
 
 
-ls $HOME/* > 'copia_home.txt'
-echo "comprimo il file" 
-#qui si presenta una condizione che controlla l'esistenza del file, se è vera lo elimina.
-[ -f copia_home.txt.gz ] && rm copia_home.txt.gz
-gzip -k copia_home.txt
-echo "view del file"
-cat copia_home.txt
-
-#-------------------------------------------------------------------------------------------------------
-
-# questo esercizio prevede la conoscenza del comando 'ls'(stampa il contenuto dela cartella selezionata)
-# e saper decidere l'uscita del suo output, 
-# 'gzip' (comprimi), 'cat' (stampa il contenuto del file selezionato).
-
-
+ls $HOME/* > 'copia_home.txt' # 'ls' stampa il contenuto di '$HOME/*' dentro un file testo 'copia_home.txt'
+[ -f copia_home.txt.gz ] && rm copia_home.txt.gz # una condizione che controlla l'esistenza del file, se è vera lo elimina.
+gzip -k copia_home.txt #'gzip -k' comprime il il file scelto
+cat copia_home.txt #'cat' mostra il contenuto del file testo

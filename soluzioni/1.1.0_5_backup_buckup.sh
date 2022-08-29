@@ -11,8 +11,7 @@
 find /home/gerson -mtime -2 -exec tar -cvzaf 25.07.2022.tar.gz {} \;
 
 # ------------------------------------------------------------------------
-# conoscenze richieste: 
-# 'find'(trova ogni dato riguardante la directory, come il '-mtime' che trova i dati riguadanti i file modificati);
+# traduzione dei comandi usati: 
+# 'find'(trova ogni dato riguardante la directory, unito al '-mtime -2' quelli modificati nelle ultime 48h);
 # 'exec'(permette l'iserimento di un altro comando che va a modificare l'output di find);
-# 'tar'(creazione archivio);
-# '-cvzaf'(opszioni del comando 'tar'), (-c) crea un archivio , (-v) manda nel display le informazioni, (-z) comprime il file, (-a) unisci i file i un unico archivio, (-f) permette l'iserimento del nome del archivio;
+# 'tar'(creazione archivio unito al '-cvzaf' crea un archivio, comprime i file, li unisce in un unico archivio e devi inserire il nome del archivio);
