@@ -5,10 +5,7 @@
 #- X minore Y
 #- X maggiore Y
 #- X uguale Y
-
 #-----------------------------------------------------------------------------------------------------
-
-
 echo "Inserisci il valore: "
 read X # x contine il primo valore
 echo "inserisci il secondo valore: "
