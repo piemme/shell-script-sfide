@@ -11,4 +11,3 @@ for (( i=1 ; i<=50 ; i++  )); # 'for' impone la condizione sulla variabile $i
 do
     echo "$i" #'echo' stampa nel terminale il valore di $i
 done # fine del ciclo
-
