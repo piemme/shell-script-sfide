@@ -8,7 +8,7 @@
 
 # ------------------------------------------------------------------------
 
-find /home/gerson -mtime -2 -exec tar -cvzaf 25.07.2022.tar.gz {} \;
+find /home/. -mtime -2 -exec tar -cvzaf 25.07.2022.tar.gz {} \;
 
 # ------------------------------------------------------------------------
 # traduzione dei comandi usati: 
