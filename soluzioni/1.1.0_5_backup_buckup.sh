@@ -5,10 +5,9 @@
 # tutti i file della home directory che sono stati modificati nelle ultime 48 ore.
 #(Usa il comando find).
 #Il nome del tarball deve conservare la data in cui è stato eseguito.
-
 # ------------------------------------------------------------------------
 
-find /home/gerson -mtime -2 -exec tar -cvzaf 25.07.2022.tar.gz {} \;
+find $Home -mtime -2 -exec tar -cvzaf 05.09.2022.tar.gz {} \;
 
 # ------------------------------------------------------------------------
 # traduzione dei comandi usati: 
