@@ -6,8 +6,7 @@
 #(Usa il comando find).
 #Il nome del tarball deve conservare la data in cui è stato eseguito.
 # ------------------------------------------------------------------------
-
-find $Home -mtime -2 -exec tar -cvzaf 05.09.2022.tar.gz {} \;
+find $Home -mtime -2 -exec tar -czavf "$(date +"%m-%d-%y")".tar.gz {} \;
 
 # ------------------------------------------------------------------------
 # traduzione dei comandi usati: 
