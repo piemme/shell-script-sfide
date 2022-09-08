@@ -109,3 +109,32 @@ non dovresti mettere una data come ad esempio `05.09.2022`
 
 Correggi anche il nome del file: buckup --> backup.
 
+
+## Esercizi versione 1.2.1
+
+Il file `soluzioni/09-07-22.tar.gz` non deve essere immesso nel sistema di versionamento: è un file binario, risultato di un'operazione di archiviazione.
+
+I file in `soluzioni/*` non hanno i permessi di esecuzione.
+
+### 4_conserva_la_home.sh
+
+Attenzione! Il listing delle directory deve essere *ricorsivo*. Il flag `-r` non aggiunge la ricorsività. `-r` sta per `reverse`: inverte l'ordinamento.
+
+### 5_backup_backup.sh
+
+La combinazione di `find` e `tar` va esaminata attentamente. Per come è impostato il comando:
+`find ~ -mtime -2 -exec tar -czavf "$(date +"%m-%d-%y")".tar.gz {} \;` 
+
+`find` chiamerà `-exec tar` per ogni singolo file che trova, mentre noi vogliamo che archivi tutti i file in un solo file archivio.
+
+Meglio usare l'opzione `xargs` al posto di `exec`.
+
+Per verificare che lo script funzioni, esegui un'operazione alla volta:
+
+- elenca e conta tutti i file modificati negli ultimi due giorni
+- conta i file risultato dell'ouput dell'istruzione di find + tar
+- confrontali
+
+
+
+
