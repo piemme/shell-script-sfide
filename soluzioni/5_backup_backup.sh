@@ -10,5 +10,6 @@ find ~ -mtime -2 -exec tar -czavf "$(date +"%m-%d-%y")".tar.gz {} \;
 # ------------------------------------------------------------------------
 # traduzione dei comandi usati: 
 # 'find'(trova ogni dato riguardante la directory, unito al '-mtime -2' quelli modificati nelle ultime 48h);
+# '~' indica la dirctory (Home/NOME-UTENTE).
 # 'exec'(permette l'iserimento di un altro comando che va a modificare l'output di find);
 # 'tar'(creazione archivio unito al '-cvzaf' crea un archivio, comprime i file, li unisce in un unico archivio e devi inserire il nome del archivio);
