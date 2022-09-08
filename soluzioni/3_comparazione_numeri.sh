@@ -10,13 +10,10 @@ echo "Inserisci il valore: "
 read X # x contine il primo valore
 echo "inserisci il secondo valore: "
 read Y # y contiene il secondo valore 
-if [[ $X < $Y ]] # 'if' se il valore di x è minore di y
-then
+if (( $X < $Y )) ; then # 'if' se il valore di x è minore di y
     echo "$X è minore di $Y" #stampa il valore di X 'èminore di' Y
-elif [[ $X > $Y ]] #se il valore è maggiore
-then
+elif (( $X > $Y )) ; then #se il valore è maggiore
     echo "$X è maggiore di $Y"
-elif [[ $X == $Y ]] #se i valori sono uguali
-then
+elif (( $X == $Y )) ; then #se i valori sono uguali
     echo "$X è uguale a $Y"
 fi
