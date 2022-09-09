@@ -6,7 +6,7 @@
 #(Usa il comando find).
 #Il nome del tarball deve conservare la data in cui è stato eseguito.
 # ------------------------------------------------------------------------
-find $HOME -mtime -2 | xargs tar -cvzf "$(date +"%m-%d-%y")".tar.g
+find $HOME -mtime -2 | xargs tar -cvzf "$(date +"%m-%d-%y")".tar.gz
 # ------------------------------------------------------------------------
 # traduzione dei comandi usati: 
 # 'find'(trova ogni dato riguardante la directory, unito al '-mtime -2' quelli modificati nelle ultime 48h);
